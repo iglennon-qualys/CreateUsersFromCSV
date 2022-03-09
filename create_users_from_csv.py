@@ -5,6 +5,7 @@ import argparse
 import sys
 import getpass
 import os.path
+import configparser
 
 
 def validate_api_response(response: ET.ElementTree):
